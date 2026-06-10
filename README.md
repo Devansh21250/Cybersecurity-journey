@@ -12,6 +12,7 @@ Organized by month in `/daily-notes`
 
 ## 🏅 Certifications
 EHE - Completed
+
 Tutedude - in progress
 
 ## 🛠️ Tools & Topics Covered
