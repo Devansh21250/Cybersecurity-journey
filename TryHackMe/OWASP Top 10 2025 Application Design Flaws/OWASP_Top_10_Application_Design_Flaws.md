@@ -1,14 +1,14 @@
 # TryHackMe — OWASP Top 10 2025: Application Design Flaws
 
-| Field          | Details                                                                                                      |
-|----------------|--------------------------------------------------------------------------------------------------------------|
-| **Platform**   | TryHackMe                                                                                                    |
-| **Room**       | [OWASP Top 10 2025: Application Design Flaws](https://tryhackme.com/room/owasptopten2025two)                 |
-| **Difficulty** | Easy                                                                                                         |
-| **Type**       | Web Application Security                                                                                     |
-| **Category**   | Security Misconfiguration, Supply Chain, Cryptography, Insecure Design                                       |
-| **Tags**       | OWASP Top 10 2025, Verbose Errors, Supply Chain, AES-ECB, API Security, Insecure Design                     |
-| **Completed**  | June 2026                                                                                                    |
+| Field          | Details                                                                                      |
+| -------------- | -------------------------------------------------------------------------------------------- |
+| **Platform**   | TryHackMe                                                                                    |
+| **Room**       | [OWASP Top 10 2025: Application Design Flaws](https://tryhackme.com/room/owasptopten2025two) |
+| **Difficulty** | Easy                                                                                         |
+| **Type**       | Web Application Security                                                                     |
+| **Category**   | Security Misconfiguration, Supply Chain, Cryptography, Insecure Design                       |
+| **Tags**       | OWASP Top 10 2025, Verbose Errors, Supply Chain, AES-ECB, API Security, Insecure Design      |
+| **Completed**  | June 2026                                                                                    |
 
 ---
 

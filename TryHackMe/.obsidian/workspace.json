@@ -1,0 +1,215 @@
+{
+  "main": {
+    "id": "d20ba52980418f41",
+    "type": "split",
+    "children": [
+      {
+        "id": "bac2209168f198a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "250ee4cab96a2c73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OWASP Top 10 2025 Application Design Flaws/OWASP_Top_10_Application_Design_Flaws.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OWASP_Top_10_Application_Design_Flaws"
+            }
+          },
+          {
+            "id": "abedd80b4692d7a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OWASP Top 10 2025 Insecure Data Handling/OWASP Top 10 2025 Insecure Data Handling.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "OWASP Top 10 2025 Insecure Data Handling"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "63ba142d3676fc53",
+    "type": "split",
+    "children": [
+      {
+        "id": "97b8fb9d329cd0ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2ab71ff9444592b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b965abdb92a150a9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "529868ce46b6eadd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6d66862a03f5cb9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "f49262a7fc2c1150",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02e23a1a2386648a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OWASP Top 10 2025 Insecure Data Handling/OWASP Top 10 2025 Insecure Data Handling.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "57d0847c21eaf4c8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OWASP Top 10 2025 Insecure Data Handling/OWASP Top 10 2025 Insecure Data Handling.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "37f00ddd8a63bab6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a45c5c80a960652a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "381656f8b51e22a4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "OWASP Top 10 2025 Insecure Data Handling/OWASP Top 10 2025 Insecure Data Handling.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "abedd80b4692d7a0",
+  "lastOpenFiles": [
+    "OWASP Top 10 2025 Application Design Flaws/OWASP_Top_10_Application_Design_Flaws.md",
+    "OWASP Top 10 2025 IAAA Failures/OWASP_Top_10_IAAA.md",
+    "OWASP Top 10 2025 Insecure Data Handling/OWASP Top 10 2025 Insecure Data Handling.md",
+    "SOC Role Blue Team/writeup-SOC Role Blue Team.md",
+    "OWASP Top 10 2025 Insecure Data Handling",
+    "Blue/writeup-blue.md"
+  ]
+}
