@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SOC Log Analyzer</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #0a0a0f;
+            color: #e0e0e0;
+            padding: 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 { color: #00ff88; }
+        .stat-box {
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 10px 0;
+        }
+        .stat-value {
+            font-size: 2em;
+            color: #00ff88;
+            font-weight: bold;
+        }
+        .alert {
+            background: #2a1a1a;
+            border-left: 4px solid #ff4444;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .safe {
+            background: #1a2a1a;
+            border-left: 4px solid #00ff88;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #333;
+        }
+        th { color: #00ff88; }
+    </style>
+</head>
+<body>
+    <h1>🔒 SOC Log Analyzer Dashboard</h1>
+    
+    <div class="stat-box">
+        <div>Total Failed Login Attempts</div>
+        <div class="stat-value">{{ data.total_failed }}</div>
+    </div>
+    
+    <div class="stat-box">
+        <div>Unique Source IPs</div>
+        <div class="stat-value">{{ data.unique_ips }}</div>
+    </div>
+    
+    {% if data.brute_force_ips %}
+    <div class="alert">
+        <h3>Brute Force Attacks Detected</h3>
+        <table>
+            <tr><th>IP Address</th><th>Failed Attempts</th></tr>
+            {% for ip, count in data.brute_force_ips.items() %}
+            <tr>
+                <td>{{ ip }}</td>
+                <td>{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% else %}
+    <div class="alert safe">
+        <h3>No Brute Force Detected</h3>
+        <p>All IPs are within normal threshold.</p>
+    </div>
+    {% endif %}
+</body>
+</html>
